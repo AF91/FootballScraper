@@ -18,7 +18,7 @@ for name in names:
   # store the link in the variable 'record' under the key 'link'
   record['link'] = name.attrib['href']
   print record
-  scraperwiki.sqlite.save(unique_keys=['link'], data=record
+  # scraperwiki.sqlite.save(unique_keys=['link'], data=record
   
 #
 # # Write out to the sqlite database using scraperwiki library
@@ -32,3 +32,4 @@ for name in names:
 # All that matters is that your final data is written to an SQLite database
 # called "data.sqlite" in the current working directory which has at least a table
 # called "data".
+#
