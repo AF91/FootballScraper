@@ -21,7 +21,7 @@ for name in names:
   record['name'] = name.text.encode('ascii', 'ignore')
   print record
   scraperwiki.sqlite.save(unique_keys=['link'], data=record)
-  # scraperwiki.sqlite.save(unique_keys=['name'], data=record)
+  scraperwiki.sqlite.save(unique_keys=['name'], data=record)
 
 
 #
