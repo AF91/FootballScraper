@@ -5,7 +5,7 @@ import scraperwiki
 import lxml.html
 #
 # # Read in a page
-html = scraperwiki.scrape("https://uk.soccerway.com/teams/england/chelsea-football-club/661/")
+html = scraperwiki.scrape("https://uk.soccerway.com/teams/spain/futbol-club-barcelona/2017/")
 #
 record = {} # create an empty dictionary variable to hold our data later
 
